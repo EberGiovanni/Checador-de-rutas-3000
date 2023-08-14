@@ -12,7 +12,7 @@ print("Placa recibida:", placa)
 # Datos de conexión a la base de datos
 host = "127.0.0.1"
 user = "root"
-password = "Egiovanni66-"
+password = "***********"
 database = "CHECADOR3000"
 
 # Obtener la fecha y hora actual

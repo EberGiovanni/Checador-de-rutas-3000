@@ -1,3 +1,4 @@
+# Bibliotecas
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -8,8 +9,6 @@ from paho.mqtt import client as mqtt_client
 import random
 import time
 import argparse
-
-# Bibliotecas
 import argparse
 
 # Parser
@@ -24,7 +23,6 @@ ruta = args.file_name #args.db_path + args.img_src
 broker = 'localhost'
 port = 1883
 topic = "codigoIoT/mqtt/civ/placas/"
-topic2 = "codigoIoT/mqtt/civ/pluma/"
 # generate client ID with pub prefix randomly
 client_id = f'python-mqtt-{random.randint(0, 1000)}'
 
@@ -85,16 +83,12 @@ def publish(client, mensaje):
         print(f"Failed to send message to topic {topic}")
 
 ### Inicio del programa
-# Buscar Rostro
 print ("Buscando placa")
 
 # df = DeepFace.find(img_path = "img1.jpg", db_path = "C:/workspace/my_db")
 data_placa = getPlaca(ruta)[:8]
 print ("Resultado ")
 print (data_placa)
-#json_view = df.to_json(orient="index")
-#print ("La expresion en JSON de los resultados es: ")
-#print (json_view)
 
 
 # Envio
