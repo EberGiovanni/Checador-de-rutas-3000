@@ -21,6 +21,16 @@ node-red-node-mysql
 node-red-node-ui-table
 0.4.3
 
-## Flujo Node-red
-<img src="./imagenes/img1.png">
+## Flujo Node-red Captura
+<img src="https://github.com/EberGiovanni/Checador-de-rutas-3000/blob/main/Imagenes/Flujo-Captura.png?raw=true">
+
+## Flujo Node-red Almacenamiento
+<img src="https://github.com/EberGiovanni/Checador-de-rutas-3000/blob/main/Imagenes/Flujo-Almacenamiento.png?raw=true">
+
+## Flujo Node-red Tabla
+<img src="https://github.com/EberGiovanni/Checador-de-rutas-3000/blob/main/Imagenes/Flujo-Tabla.png?raw=true">
+
+
+
+
 
